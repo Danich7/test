@@ -1,3 +1,15 @@
+.block__text, .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .block {
   padding: 0;
   margin: 0;
@@ -5,5 +17,16 @@
 }
 
 .block:hover {
-  color: l;
+  color: #262626;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.block__text {
+  margin-right: 15px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  text-decoration: none;
 }
