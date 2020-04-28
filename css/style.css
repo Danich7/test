@@ -27,7 +27,8 @@
 }
 
 .block__text:hover {
-  color: red;
+  color: green;
+  text-decoration: none;
 }
 
 .nav-link {
