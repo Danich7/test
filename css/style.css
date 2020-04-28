@@ -28,10 +28,10 @@
 
 .block__text:hover {
   color: red;
-  text-decoration: none;
 }
 
 .nav-link {
   margin-right: 15px;
   text-decoration: none;
+  padding-left: 0;
 }
